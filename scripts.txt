@@ -1,0 +1,2 @@
+    "gen": "node generator.js",
+    "start-dev": "npm run gen && cd ../project/apim && pm2 delete 0 && npm run start-dev && cd ../../CCC"
